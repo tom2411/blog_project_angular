@@ -1,0 +1,6 @@
+<h2>{{ post.title }}</h2>
+<h4>{{ post.createdAt | date:'MM/dd/yyyy, HH:mm a' }}</h4>
+<p>{{ post.content }}</p>
+<button type="button" class="btn btn-success" (click)="love()">Love it!</button>
+<button type="button" class="btn btn-danger" (click)="unlove()">Don't love it!</button>
+

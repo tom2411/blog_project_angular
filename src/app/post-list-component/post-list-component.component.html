@@ -1,0 +1,7 @@
+<li [ngClass]="{'list-group-item':true,
+                'list-group-item-success': post.love > 0,
+                'list-group-item-danger': post.love < 0 }">
+  <app-post-list-item
+    [post]="post"
+  ></app-post-list-item>
+</li>
